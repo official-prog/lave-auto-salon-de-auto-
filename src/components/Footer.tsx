@@ -3,10 +3,10 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 const cols = [
   {
     h: "Services",
-    l: ["Truck Wash", "Fleet Washing", "Trailer Cleaning", "Car Wash", "Undercarriage", "Heavy Equipment"],
+    l: ["Carwash", "Fleet Washing", "Trailer Cleaning", "Car Wash", "Undercarriage", "Heavy Equipment"],
   },
   { h: "Company", l: ["About", "Process", "Technology", "Gallery", "Contact"] },
-  { h: "Visit", l: ["6771 Columbus Rd, Unit 12", "Mississauga, ON L5T2J9", "905-672-1635"] },
+  { h: "Visit", l: ["6771 Pierson Rd, Unit 12", "Mississauga, ON L5T2J9", "905-672-1635"] },
 ];
 
 export function Footer() {
@@ -25,10 +25,10 @@ export function Footer() {
               </div>
               <div>
                 <div className="font-display text-base font-bold tracking-widest uppercase">
-                  Columbus
+                  Pierson
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                  Truck Wash
+                  Carwash
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground sm:flex-row sm:items-center">
           <div>
-            © {new Date().getFullYear()} Columbus Truck Wash · Mississauga, ON
+            © {new Date().getFullYear()} Pierson Carwash · Mississauga, ON
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">Privacy</a>

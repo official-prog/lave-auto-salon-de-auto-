@@ -21,7 +21,7 @@ export function Location() {
             className="lg:col-span-8 relative overflow-hidden rounded-3xl glass-panel"
           >
             <iframe
-              title="Columbus Truck Wash location"
+              title="Pierson Carwash location"
               src="https://www.google.com/maps?q=6771+Columbus+Road+Unit+12+Mississauga+Ontario&output=embed"
               className="h-[460px] w-full sm:h-[560px]"
               loading="lazy"
@@ -37,7 +37,7 @@ export function Location() {
                 Now Open
               </div>
               <div className="mt-3 font-display text-lg font-semibold">
-                Columbus Truck Wash
+                Pierson Carwash
               </div>
               <div className="mt-1 text-sm text-muted-foreground">
                 6771 Columbus Road, Unit 12

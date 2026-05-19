@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Columbus Truck Wash · Mississauga, Ontario · Heavy-Duty Commercial Wash",
+          "Pierson Carwash · Mississauga, Ontario · Heavy-Duty Commercial Wash",
       },
       {
         name: "description",
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
         content:
           "Truck Wash Mississauga, Commercial Truck Wash Ontario, Fleet Wash Services, Heavy Duty Vehicle Cleaning, Car Wash Mississauga, Fleet Cleaning Ontario, Professional Truck Wash, Commercial Vehicle Cleaning",
       },
-      { property: "og:title", content: "Columbus Truck Wash · Mississauga" },
+      { property: "og:title", content: "Pierson Carwash · Mississauga" },
       {
         property: "og:description",
         content:
@@ -46,7 +46,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "AutoWash",
-          name: "Columbus Truck Wash",
+          name: "Pierson Carwash",
           image: "/og.jpg",
           telephone: "905-672-1635",
           email: "jasjitchohan@gmail.com",

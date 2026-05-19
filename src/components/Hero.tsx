@@ -28,7 +28,7 @@ export function Hero() {
       >
         <img
           src={heroTruck}
-          alt="Massive semi-truck entering Columbus Truck Wash futuristic wash bay"
+          alt="Massive semi-truck entering Pierson Carwash futuristic wash bay"
           className="h-full w-full object-cover"
           fetchPriority="high"
           width={1920}

@@ -17,23 +17,23 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "1st Choice Truck & Car Wash · Whitecourt, Alberta · Heavy-Duty Commercial Wash",
+          "Columbus Truck Wash · Mississauga, Ontario · Heavy-Duty Commercial Wash",
       },
       {
         name: "description",
         content:
-          "Professional truck wash, fleet washing, and car wash services in Whitecourt, Alberta. Heavy-duty commercial vehicle cleaning, undercarriage wash, and high-pressure detail built for Alberta roads.",
+          "Professional truck wash, fleet washing, and car wash services in Mississauga, Ontario. Heavy-duty commercial vehicle cleaning, undercarriage wash, and high-pressure detail built for Ontario roads.",
       },
       {
         name: "keywords",
         content:
-          "Truck Wash Whitecourt, Commercial Truck Wash Alberta, Fleet Wash Services, Heavy Duty Vehicle Cleaning, Car Wash Whitecourt, Fleet Cleaning Alberta, Professional Truck Wash, Commercial Vehicle Cleaning",
+          "Truck Wash Mississauga, Commercial Truck Wash Ontario, Fleet Wash Services, Heavy Duty Vehicle Cleaning, Car Wash Mississauga, Fleet Cleaning Ontario, Professional Truck Wash, Commercial Vehicle Cleaning",
       },
-      { property: "og:title", content: "1st Choice Truck & Car Wash · Whitecourt" },
+      { property: "og:title", content: "Columbus Truck Wash · Mississauga" },
       {
         property: "og:description",
         content:
-          "Heavy-Duty Cleaning. Premium Results. Truck, fleet, and car wash services in Whitecourt, Alberta.",
+          "Heavy-Duty Cleaning. Premium Results. Truck and fleet wash services in Mississauga, Ontario.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -46,18 +46,21 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "AutoWash",
-          name: "1st Choice Truck and Car Wash",
+          name: "Columbus Truck Wash",
           image: "/og.jpg",
+          telephone: "905-672-1635",
+          email: "jasjitchohan@gmail.com",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "3530 Kepler Street",
-            addressLocality: "Whitecourt",
-            addressRegion: "AB",
+            streetAddress: "6771 Columbus Road, Unit 12",
+            addressLocality: "Mississauga",
+            addressRegion: "ON",
+            postalCode: "L5T2J9",
             addressCountry: "CA",
           },
-          areaServed: "Whitecourt, Alberta",
+          areaServed: "Mississauga, Ontario",
           priceRange: "$$",
-          openingHours: ["Mo-Fr 07:00-21:00", "Sa 08:00-18:00", "Su 09:00-17:00"],
+          openingHours: ["Mo-Su 07:00-21:00"],
         }),
       },
     ],

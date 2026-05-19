@@ -28,7 +28,7 @@ export function Hero() {
       >
         <img
           src={heroTruck}
-          alt="Massive semi-truck entering 1st Choice futuristic wash bay"
+          alt="Massive semi-truck entering Columbus Truck Wash futuristic wash bay"
           className="h-full w-full object-cover"
           fetchPriority="high"
           width={1920}
@@ -63,7 +63,7 @@ export function Hero() {
           className="flex items-center gap-3 text-xs uppercase tracking-[0.35em] text-muted-foreground"
         >
           <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--electric)] animate-[pulse-glow_2s_infinite]" />
-          Whitecourt · Alberta · Established Local
+          Mississauga · Ontario · Established Local
         </motion.div>
 
         <motion.h1
@@ -82,7 +82,7 @@ export function Hero() {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
           className="mt-8 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          Professional truck and car wash services built for Alberta roads,
+          Professional truck wash services built for Ontario roads,
           commercial fleets, and drivers who care about every detail.
         </motion.p>
 
@@ -122,7 +122,7 @@ export function Hero() {
           className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl glass-panel sm:grid-cols-4"
         >
           {[
-            { v: "15+", l: "Years Serving Alberta" },
+            { v: "15+", l: "Years Serving Ontario" },
             { v: "2,400+", l: "Trucks Cleaned / Mo" },
             { v: "12 min", l: "Average Wash Cycle" },
             { v: "24/7", l: "Fleet Bookings" },

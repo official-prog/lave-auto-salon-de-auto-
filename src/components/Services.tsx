@@ -14,7 +14,7 @@ const services = [
   {
     icon: Truck,
     title: "Truck Wash",
-    desc: "Full exterior cleaning for semi-trucks, day cabs, and sleepers   built for Alberta highways.",
+    desc: "Full exterior cleaning for semi-trucks, day cabs, and sleepers   built for Ontario highways.",
     spec: "Cycle · 12 min",
   },
   {

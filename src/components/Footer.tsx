@@ -6,7 +6,7 @@ const cols = [
     l: ["Truck Wash", "Fleet Washing", "Trailer Cleaning", "Car Wash", "Undercarriage", "Heavy Equipment"],
   },
   { h: "Company", l: ["About", "Process", "Technology", "Gallery", "Contact"] },
-  { h: "Visit", l: ["3530 Kepler Street", "Whitecourt, AB", "Mon–Sun · 7am–9pm"] },
+  { h: "Visit", l: ["6771 Columbus Rd, Unit 12", "Mississauga, ON L5T2J9", "905-672-1635"] },
 ];
 
 export function Footer() {
@@ -20,29 +20,35 @@ export function Footer() {
               <div className="relative h-10 w-10">
                 <div className="absolute inset-0 rounded-md metallic-surface" />
                 <div className="absolute inset-[2px] rounded-[6px] bg-background flex items-center justify-center">
-                  <span className="font-display text-sm font-bold neon-text">1C</span>
+                  <span className="font-display text-sm font-bold neon-text">CT</span>
                 </div>
               </div>
               <div>
                 <div className="font-display text-base font-bold tracking-widest uppercase">
-                  1st Choice
+                  Columbus
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                  Truck & Car Wash
+                  Truck Wash
                 </div>
               </div>
             </div>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Heavy-duty truck wash and premium car care in Whitecourt,
-              Alberta. Built for fleets, drivers, and equipment that work
-              Alberta's hardest miles.
+              Heavy-duty truck wash and premium car care in Mississauga,
+              Ontario. Built for fleets, drivers, and equipment that work
+              Ontario's hardest miles.
             </p>
             <div className="mt-6 flex gap-3">
-              {[Facebook, Instagram, Linkedin].map((Icon, i) => (
+              {[
+              { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=61575704648068&locale=nn_NO", label: "Facebook" },
+              { Icon: Instagram, href: "#", label: "Instagram" },
+              { Icon: Linkedin, href: "#", label: "LinkedIn" },
+            ].map(({ Icon, href, label }) => (
                 <a
-                  key={i}
-                  href="#"
-                  aria-label="Social"
+                  key={label}
+                  href={href}
+                  aria-label={label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group relative h-10 w-10 rounded-full glass-panel flex items-center justify-center transition-all duration-700 hover:shadow-[var(--shadow-neon)]"
                   style={{ transitionTimingFunction: "cubic-bezier(0.22,1,0.36,1)" }}
                 >
@@ -77,7 +83,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground sm:flex-row sm:items-center">
           <div>
-            © {new Date().getFullYear()} 1st Choice Truck & Car Wash · Whitecourt, AB
+            © {new Date().getFullYear()} Columbus Truck Wash · Mississauga, ON
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">Privacy</a>

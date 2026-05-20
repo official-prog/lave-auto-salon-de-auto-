@@ -39,15 +39,15 @@ export function Nav() {
           <div className="relative h-9 w-9">
             <div className="absolute inset-0 rounded-md metallic-surface" />
             <div className="absolute inset-[2px] rounded-[6px] bg-background flex items-center justify-center">
-              <span className="font-display text-sm font-bold neon-text">CT</span>
+              <span className="font-display text-sm font-bold neon-text">LA</span>
             </div>
           </div>
           <div className="flex flex-col leading-none">
             <span className="font-display text-sm font-bold tracking-widest uppercase">
-              Columbus
+              Lave Auto
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-              Truck Wash
+              Salon de Auto
             </span>
           </div>
         </a>

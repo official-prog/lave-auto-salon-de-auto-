@@ -8,8 +8,8 @@ export function Location() {
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="07 · Location"
-          title="6771 Columbus Road, Mississauga."
-          sub="Easy truck access. Unit 12, Mississauga, ON. Open early   open late."
+          title="87 boul St-Luc, Saint-Jean-sur-Richelieu."
+          sub="Facile d'accès. Saint-Jean-sur-Richelieu, QC J2W 1E2. Ouvert tôt, fermé tard."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-6 lg:grid-cols-12">
@@ -21,8 +21,8 @@ export function Location() {
             className="lg:col-span-8 relative overflow-hidden rounded-3xl glass-panel"
           >
             <iframe
-              title="Columbus Truck Wash location"
-              src="https://www.google.com/maps?q=6771+Columbus+Road+Unit+12+Mississauga+Ontario&output=embed"
+              title="Lave Auto Salon de Auto location"
+              src="https://www.google.com/maps?q=87+boul+St-Luc+Saint-Jean-sur-Richelieu+QC+J2W+1E2&output=embed"
               className="h-[460px] w-full sm:h-[560px]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -37,15 +37,15 @@ export function Location() {
                 Now Open
               </div>
               <div className="mt-3 font-display text-lg font-semibold">
-                Columbus Truck Wash
+                Lave Auto Salon de Auto
               </div>
               <div className="mt-1 text-sm text-muted-foreground">
-                6771 Columbus Road, Unit 12
+                87 boul St-Luc
                 <br />
-                Mississauga, ON L5T2J9
+                Saint-Jean-sur-Richelieu, QC J2W 1E2
               </div>
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=6771+Columbus+Road+Mississauga+Ontario"
+                href="https://www.google.com/maps/dir/?api=1&destination=87+boul+St-Luc+Saint-Jean-sur-Richelieu+QC"
                 target="_blank"
                 rel="noopener"
                 className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-xs uppercase tracking-[0.2em] text-primary-foreground transition-all duration-700 hover:shadow-[var(--shadow-neon)]"
@@ -61,12 +61,12 @@ export function Location() {
               {
                 icon: MapPin,
                 t: "Address",
-                d: "6771 Columbus Road, Unit 12\nMississauga, ON L5T2J9",
+                d: "87 boul St-Luc\nSaint-Jean-sur-Richelieu, QC J2W 1E2",
               },
               {
                 icon: Phone,
                 t: "Contact",
-                d: "905-672-1635\njasjitchohan@gmail.com",
+                d: "450-359-1777",
               },
               {
                 icon: Clock,

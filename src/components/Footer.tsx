@@ -6,7 +6,7 @@ const cols = [
     l: ["Truck Wash", "Fleet Washing", "Trailer Cleaning", "Car Wash", "Undercarriage", "Heavy Equipment"],
   },
   { h: "Company", l: ["About", "Process", "Technology", "Gallery", "Contact"] },
-  { h: "Visit", l: ["6771 Columbus Rd, Unit 12", "Mississauga, ON L5T2J9", "905-672-1635"] },
+  { h: "Visit", l: ["87 boul St-Luc", "Saint-Jean-sur-Richelieu, QC J2W 1E2", "450-359-1777"] },
 ];
 
 export function Footer() {
@@ -20,26 +20,25 @@ export function Footer() {
               <div className="relative h-10 w-10">
                 <div className="absolute inset-0 rounded-md metallic-surface" />
                 <div className="absolute inset-[2px] rounded-[6px] bg-background flex items-center justify-center">
-                  <span className="font-display text-sm font-bold neon-text">CT</span>
+                  <span className="font-display text-sm font-bold neon-text">LA</span>
                 </div>
               </div>
               <div>
                 <div className="font-display text-base font-bold tracking-widest uppercase">
-                  Columbus
+                  Lave Auto
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                  Truck Wash
+                  Salon de Auto
                 </div>
               </div>
             </div>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Heavy-duty truck wash and premium car care in Mississauga,
-              Ontario. Built for fleets, drivers, and equipment that work
-              Ontario's hardest miles.
+              Lavage auto et salon de voiture à Saint-Jean-sur-Richelieu, QC.
+              Services professionnels pour particuliers et flottes commerciales.
             </p>
             <div className="mt-6 flex gap-3">
               {[
-              { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=61575704648068&locale=nn_NO", label: "Facebook" },
+              { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=100057578674023", label: "Facebook" },
               { Icon: Instagram, href: "#", label: "Instagram" },
               { Icon: Linkedin, href: "#", label: "LinkedIn" },
             ].map(({ Icon, href, label }) => (
@@ -83,7 +82,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground sm:flex-row sm:items-center">
           <div>
-            © {new Date().getFullYear()} Columbus Truck Wash · Mississauga, ON
+            © {new Date().getFullYear()} Lave Auto Salon de Auto · Saint-Jean-sur-Richelieu, QC
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground">Privacy</a>

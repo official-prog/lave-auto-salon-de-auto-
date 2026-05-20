@@ -28,7 +28,7 @@ export function Hero() {
       >
         <img
           src={heroTruck}
-          alt="Massive semi-truck entering Columbus Truck Wash futuristic wash bay"
+          alt="Voiture entrant au Lave Auto Salon de Auto à Saint-Jean-sur-Richelieu"
           className="h-full w-full object-cover"
           fetchPriority="high"
           width={1920}
@@ -63,7 +63,7 @@ export function Hero() {
           className="flex items-center gap-3 text-xs uppercase tracking-[0.35em] text-muted-foreground"
         >
           <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--electric)] animate-[pulse-glow_2s_infinite]" />
-          Mississauga · Ontario · Established Local
+          Saint-Jean-sur-Richelieu · Québec · Établi Localement
         </motion.div>
 
         <motion.h1
@@ -82,8 +82,8 @@ export function Hero() {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
           className="mt-8 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          Professional truck wash services built for Ontario roads,
-          commercial fleets, and drivers who care about every detail.
+          Services de lavage auto professionnels à Saint-Jean-sur-Richelieu,
+          pour particuliers et flottes commerciales qui exigent la perfection.
         </motion.p>
 
         <motion.div
